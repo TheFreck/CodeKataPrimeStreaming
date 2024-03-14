@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKataPrimeStreaming", "CodeKataPrimeStreaming\CodeKataPrimeStreaming.csproj", "{98870949-2D77-4E1D-BD32-F84F6F65116A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKataPrimeStreaming.Specs", "CodeKataPrimeStreaming.Specs\CodeKataPrimeStreaming.Specs.csproj", "{B3953F5B-D9F7-461F-BCA4-5351F1000877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98870949-2D77-4E1D-BD32-F84F6F65116A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98870949-2D77-4E1D-BD32-F84F6F65116A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98870949-2D77-4E1D-BD32-F84F6F65116A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98870949-2D77-4E1D-BD32-F84F6F65116A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3953F5B-D9F7-461F-BCA4-5351F1000877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3953F5B-D9F7-461F-BCA4-5351F1000877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3953F5B-D9F7-461F-BCA4-5351F1000877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3953F5B-D9F7-461F-BCA4-5351F1000877}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC44B3E9-A91A-4681-9663-813D7B52D806}
+	EndGlobalSection
+EndGlobal

@@ -11,7 +11,7 @@ namespace PrimeStreaming.Controllers
         [HttpGet("{bottom}/{qty}")]
         public int[] GetPrimes(int bottom, int qty)
         {
-            var streamed = Primes.Stream();
+            var streamed = Primes.Stream(bottom*qty);
             return streamed.Skip(bottom).Take(qty).ToArray();
         }
     }

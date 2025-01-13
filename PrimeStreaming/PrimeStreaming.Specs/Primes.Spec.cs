@@ -31,7 +31,7 @@ namespace CokeKataPrimeStreaming.Specs
         {
             for (var i = 0; i < inputs.Length; i++)
             {
-                primes = Primes.Stream();
+                primes = Primes.Stream(10000000);
                 answers[i] = primes.ToArray();
             }
         };
